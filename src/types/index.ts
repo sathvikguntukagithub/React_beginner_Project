@@ -13,7 +13,7 @@ export interface Data {
   recipes: Recipe[];
 }
 export type RecipeFetchState = {
-  data: Recipe | null;
+  data: Recipe | null | any;
   loading: boolean;
   error: Error | null;
 };
